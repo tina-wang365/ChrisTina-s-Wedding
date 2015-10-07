@@ -33,5 +33,7 @@ a.navButton {
 img.sample {
 	border: solid blue;
 	margin: 5px;
-	
+}
+img#img01 {
+	float:right;
 }
