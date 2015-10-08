@@ -3,35 +3,68 @@ body {
 }
 a:link{
 	color:green;
-	background-color:transparent;
+	background-color: transparent;
 	text-decoration: none;
 }
-div a.navButton {
-	border: solid red;
-	margin 5px;
+
+header {
+	background-color:pink;
+	margin:0%;
+	padding:0.4%;
+	height:2%;
+	text-align: left;
+	color:green;
 }
-div a.navButton:link {
+h1{
+	/* test color: purple*/
+	background-color:transparent;
+	padding:0%;
+	margin:0%;
+}
+p#header  {
+	background-color:green;
+	color:white;
+	margin:0%;
+	padding:0;
+	height:0;
+}
+nav {
+	background-color:black;
+	margin: 1%;
+}
+a.navButton {
+	border: solid red;
+	margin:0%;
+	padding:0%;
+	float: right;
+	
+}
+a.navButton:link {
 	color: green;
 	background-color: transparent;
 	text-decoration: none;
 }
 
-div a.navButton:visited {
+a.navButton:visited {
 	color:purple;
 	background-color: transparent;
 	text-decoration: none;
 }
 
-div a.navButton:hover {
+nav a.navButton:hover {
 	color: blue;
 	background-color: transparent;
 	text-decoration: none;
 }
 
-div a.navButton:active {
+nav a.navButton:active {
 	color:grey;
 	background-color:transparent;
 	text-decoration: none;
+}
+
+div#footer {
+	background-color:green;
 }
 
 div#div01 {
@@ -42,7 +75,7 @@ div#div02 {
 }
 img.sample {
 	border: solid blue;
-	margin: 5px;
+	margin: 1%;
 }
 img#img01 {
 	float:right;
