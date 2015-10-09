@@ -7,7 +7,9 @@ a:link{
 	text-decoration: none;
 }
 
-header {
+header, h1, p#headerText {
+	/*background-color:pink;
+	background-image:url("Beautiful_Pink_Flowers.jpg");*/
 	background-color:pink;
 	margin:0%;
 	padding:0.4%;
@@ -15,28 +17,15 @@ header {
 	text-align: left;
 	color:green;
 }
-h1{
-	/* test color: purple*/
-	background-color:transparent;
-	padding:0%;
-	margin:0%;
-}
-p#header  {
-	background-color:green;
-	color:white;
-	margin:0%;
-	padding:0;
-	height:0;
-}
 nav {
-	background-color:black;
+	background-color:blue;
+	padding: 1%;
 	margin: 1%;
+	width: 100%;
 }
-a.navButton {
-	border: solid red;
-	margin:0%;
-	padding:0%;
-	float: right;
+div#navButtons, a.navButton {
+	background-color: black;
+	float: left;
 	
 }
 a.navButton:link {
