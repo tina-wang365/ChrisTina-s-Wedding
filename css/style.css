@@ -1,5 +1,6 @@
 body {
-	background-color: lightgreen;
+	background-color:lightgreen;
+	background-image:url(Beautiful_Pink_Flowers.jpg);
 }
 a:link{
 	color:green;
@@ -7,26 +8,36 @@ a:link{
 	text-decoration: none;
 }
 
-header, h1, p#headerText {
-	/*background-color:pink;
-	background-image:url("Beautiful_Pink_Flowers.jpg");*/
+#header {
+	padding:1%;
+}
+h1, p#headerText {
+	padding:1%;
+}
+
+#header, h1, p#headerText {
 	background-color:pink;
-	margin:0%;
-	padding:0.4%;
-	height:2%;
 	text-align: left;
 	color:green;
 }
-nav {
+
+#navBar {
 	background-color:blue;
-	padding: 1%;
-	margin: 1%;
-	width: 100%;
+	padding:1%;
+	
 }
-div#navButtons, a.navButton {
+ul#navButtons {
+	background-color:red;
+	list-style-type:none;
+	padding:0.5%;
+}
+li {
+	display:inline;
+}
+a.navButton {
 	background-color: black;
 	float: left;
-	
+	font-size:x-large;
 }
 a.navButton:link {
 	color: green;
@@ -40,32 +51,32 @@ a.navButton:visited {
 	text-decoration: none;
 }
 
-nav a.navButton:hover {
+nav, a.navButton:hover {
 	color: blue;
 	background-color: transparent;
 	text-decoration: none;
 }
 
-nav a.navButton:active {
+nav, a.navButton:active {
 	color:grey;
 	background-color:transparent;
 	text-decoration: none;
 }
 
-div#footer {
+#footer {
 	background-color:green;
 }
 
-div#div01 {
+#div01 {
 border:solid red;
 }
-div#div02 {
+#div02 {
 	border:solid yellow;
 }
 img.sample {
 	border: solid blue;
 	margin: 1%;
 }
-img#img01 {
+#img01 {
 	float:right;
 }
