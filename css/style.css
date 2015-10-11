@@ -9,44 +9,58 @@ body {
 	width:50%;
 	background-color: pink;
 	background-image: url(Beautiful_Pink_Flowers.jpg);
+}/*
+#leftFiller {
+	width:25%;
+	float:left;
+	background-color: lightblue;
 }
+#rightFiller {
+	width:25%;
+	float:right;
+	background-color: darkblue;
+}*/
 
-#header, h1, p#headerText {
-	margin-bottom:0%;
-	padding-bottom:0.25%;	
-}
-
-#header, h1, p#headerText {
+#header{
 	background-color:pink;
+}
+#h1, P#headerText {
+	background-color: transparent;
+}
+
+#header, h1, p#headerText {
 	text-align: left;
-	color:green;
-	width:100%;
+	color: green;
+	margin-bottom:0%;
+	padding-bottom:0.25%;
 }
 
 #navBar {
 	background-color:blue;
 	padding:0%;
-	width:100%;
 	margin:0%;
-	float: right;
+	height:200px;
+	width:20%;
+	display: block;
+	float: left;
+	text-align: center;
 }
 
 ul#navButtons {
 	background-color:red;
 	list-style-type:none;
-	padding: 1% 0% 4% 0%;
+	padding: 0%;
 	margin:0%;
-	width:100%;
+	width: 100%;
+	max-height:100%;
+	
 }
-ul li { /*For all li in ul*/
-	display:inline;
+li { /*For all li in ul*/
+	display:vertical;
 }
-/*a.navButton {
-	background-color: black;
-	float: left;
-	font-size:medium;
-}*/
 
+a.navButton {
+}
 a.navButton:link {
 	color: green;
 	background-color: transparent;
@@ -72,15 +86,13 @@ a.navButton:active {
 }
 
 #footer {
-	background-color:green;
+	background-color:pink;
 }
 
-#div01 {
-border:solid red;
+div#section01 {
+	float:left;
 }
-#div02 {
-	border:solid yellow;
-}
+
 img.sample {
 	border: solid blue;
 	margin: 1%;
