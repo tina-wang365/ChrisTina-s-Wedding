@@ -5,42 +5,40 @@ body {
 	directory as the css file*/
 }
 
-
-#header {
-	padding:1%;
-	width:100%;
-	/*position:fixed;
-	top:0;
-	left:0;*/
+#content {
+	width:50%;
+	background-color: pink;
+	background-image: url(Beautiful_Pink_Flowers.jpg);
 }
 
-h1, p#headerText {
-	padding:1%;
-	
+#header, h1, p#headerText {
+	margin-bottom:0%;
+	padding-bottom:0.25%;	
 }
 
 #header, h1, p#headerText {
 	background-color:pink;
 	text-align: left;
 	color:green;
-	padding:1%;
+	width:100%;
 }
 
 #navBar {
 	background-color:blue;
-	padding:1%;
-	margin:1%;
+	padding:0%;
 	width:100%;
-	/*position: relative;*/
-		
+	margin:0%;
+	float: right;
 }
 
 ul#navButtons {
 	background-color:red;
 	list-style-type:none;
-	padding:1%;
+	padding: 1% 0% 4% 0%;
+	margin:0%;
+	width:100%;
 }
-li {
+ul li { /*For all li in ul*/
 	display:inline;
 }
 /*a.navButton {
@@ -48,18 +46,6 @@ li {
 	float: left;
 	font-size:medium;
 }*/
-
-a.navButton:hover {
-	color: blue;
-	background-color: transparent;
-	text-decoration: none;
-}
-
-a.navButton:active {
-	color:grey;
-	background-color:transparent;
-	text-decoration: none;
-}
 
 a.navButton:link {
 	color: green;
@@ -73,9 +59,17 @@ a.navButton:visited {
 	text-decoration: none;
 }
 
+a.navButton:hover {
+	color: blue;
+	background-color: transparent;
+	text-decoration: none;
+}
 
-
-
+a.navButton:active {
+	color:grey;
+	background-color:transparent;
+	text-decoration: none;
+}
 
 #footer {
 	background-color:green;
