@@ -1,51 +1,46 @@
-<!DOCTYPE html>
+body
+{
+	margin: 0px
+}
 
-<head>
-	body
-	{
-		margin: 0px
-	}
+#header
+{
+	background-color: #4cff00;
+}
 
-	#header
-	{
-		background-color: #4cff00;
-	}
+#footer
+{
+	background-color: #ffd800;
+}
 
-	#footer
-	{
-		background-color: #ffd800;
-	}
+#body
+{
+	overflow: hidden;
+	background-color: #000000;
+}
 
-	#body
-	{
-		overflow: hidden;
-		background-color: #000000;
-	}
+#navbar
+{
+	float: left;
+	width: 200px;
 
-	#navbar
-	{
-		float: left;
-		width: 200px;
+	background-color: #F00;
+}
 
-		background-color: #F00;
-	}
+#content
+{
+	margin-left: 200px;
 
-	#content
-	{
-		margin-left: 200px;
+	background-color: #BBBBBB;
+}
 
-		background-color: #BBBBBB;
-	}
+.column
+{
+	margin-bottom: -32000px;
+	padding-bottom: 32000px;
+}
 
-	.column
-	{
-		margin-bottom: -32000px;
-		padding-bottom: 32000px;
-	}
-
-	.blockWrapper
-	{
-		display: inline-block;
-	}
-
-
+.blockWrapper
+{
+	display: inline-block;
+}
