@@ -1,58 +1,82 @@
 body {
-	background-color: darkgreen;
+	background-image: url(Beautiful_Pink_Flowers.jpg);
+	margin:0px;
 }
 
 #page {
-	width:60%;
-	margin: 0% 40%;
-	background-color: pink;
-	background-image: url(Beautiful_Pink_Flowers.jpg);
-}
-
-#header, #h1, p#headerText{
-	background-color:pink;
+	background-color: white;
+	overflow: visible;
+	min-height: 610px;
+	max-width:60%;	
+	margin:0% 20%;
+	position: relative;
 }
 
 #header, h1, p#headerText {
+	background-color: pink;
 	text-align: left;
 	color: green;
-	margin-bottom:0%;
+	margin:0%;
+	padding-left:5px;
 	padding-bottom:0.25%;
+	position: relative;
 }
-
-div#pContainer {
-	background-color: white;
-	margin:0% 30px;
+h2, p#p1 {
+	padding-left: 10%;
 }
 
 #navBar {
-	background-color:blue;
-	padding: 10px 10px 255px 10px;
-	margin:0%;
-	width:8%;
-	display: block; 
+	background-color: lightblue;	
+	padding: 10px 0px 255px 0px;
+	width:100px;
 	text-align: center;
-	float: left;
 	position: relative;
-	max-height: auto;
+	float: left;
+	display: block;
 }
 
 ul#navButtons {
 	list-style-type:none;
 	padding:0%;
-	margin:0%;
-	width: 100%;
-	max-height:100%;
-	display: block;
+	width:100px;
+	background-color: blue;
+	display:inline;
 	
 }
 li { /*For all li in ul*/
 	display:vertical;
+	padding:5px 0px 0px 0px;
+	background-color: mediumpurple;
+}
+img {
+	border-color: blue;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	margin: 0% 0% 0% 3%;
+	border-radius: 15px;
 }
 
-a.navButton {
-	padding: 50px 0px;
+div#imageBar {
+	padding: 0% 0% 0% 38%;
 }
+
+.changeImage {
+	margin: 0px 50px;
+}
+
+div#pContainer {
+	background-color: gray;
+	position: relative;
+	display: block;
+	height: 100%;
+	padding: 0% 10%;	
+}
+h2 {
+	margin-top: 10px;
+}
+
+
 a.navButton:link {
 	color: green;
 	background-color: transparent;
@@ -79,11 +103,7 @@ a.navButton:active {
 
 #footer {
 	background-color:pink;
+	position: relative;
+	
 }
 
-img {
-	border-color: blue;
-	width: 200px;
-	height: 150px;
-
-}
